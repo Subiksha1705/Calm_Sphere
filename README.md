@@ -30,7 +30,7 @@ Follow these steps to install and run Calm Sphere:
 1. Clone the repository using `git clone`.  
 2. Navigate to the project directory.  
 3. Create a virtual environment using `python -m venv env` and activate it.  
-4. Install dependencies with `pip install -r requirements.txt`.  
+4. Install dependencies with `pip install -r requirements.txt`.
 5. Create a `.env` file and provide the Hugging Face API key and MongoDB connection URI.  
 6. Run the application using `streamlit run ui.py --server.enableCORS false --server.enableXsrfProtection false`.  
 
