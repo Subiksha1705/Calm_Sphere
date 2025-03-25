@@ -1,0 +1,8 @@
+Set-ExecutionPolicy Unrestricted -Scope Process
+env\Scripts\activate
+pip install -r requirements.txt
+python intro.py
+code .
+python -m venv env
+python -m streamlit run ui.py --server.enableCORS false --server.enableXsrfProtection false
+C:\Users\subik\OneDrive\Desktop\Med_hack> 
