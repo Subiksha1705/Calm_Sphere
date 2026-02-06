@@ -4,7 +4,7 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 from wordcloud import WordCloud
-from intro import get_chatbot_response, get_or_create_user, save_user_info, save_message, get_chat_history
+from backend import get_chatbot_response, get_or_create_user, save_user_info, save_message, get_chat_history
 import warnings
 
 warnings.simplefilter("ignore", category=FutureWarning)
